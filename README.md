@@ -5,10 +5,6 @@
 </p>
 
 <p align="left">
-Moro em Rio Branco, no Acre, a três mil quilômetros da empresa de tecnologia mais próxima. Como <strong>campelodev</strong> eu mostro essa jornada por dentro: a rotina de estudo, os erros que custaram caro e o que de fato funcionou para sair do zero.
-</p>
-
-<p align="left">
   <a href="https://instagram.com/campelodev"><img src="https://img.shields.io/badge/Instagram-campelodev-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=instagram" alt="Instagram"></a>
   <a href="https://www.tiktok.com/@campelodev_"><img src="https://img.shields.io/badge/TikTok-campelodev__-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=tiktok" alt="TikTok"></a>
   <a href="https://www.linkedin.com/in/brenocampelo"><img src="https://img.shields.io/badge/LinkedIn-brenocampelo-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=linkedin" alt="LinkedIn"></a>
