@@ -17,6 +17,7 @@
 
 | Projeto | O que é | Stack |
 | :--- | :--- | :--- |
+| **[BioAmazon IA](https://github.com/bcampelo/amazonia-bio)** | Rastreabilidade do açaí com IA na ponta: o produtor fala, o Gemma gera a ficha técnica e a narrativa, e nasce uma página pública com QR. Offline-first, rodando no próprio aparelho. Projeto vencedor de hackathon. | Python · Flask · Gemma · PWA · Edge AI |
 | **[Sampaio & Gonçalves](https://github.com/bcampelo/sampaioegoncalves-adv-26)** | Site institucional de um escritório de advocacia. Hero 3D em WebGL, motion cinematográfico guiado por scroll e acessibilidade respeitando `prefers-reduced-motion`. Projeto de cliente. | React 18 · TypeScript · Vite · GSAP · Three.js |
 | **[SGB API](https://github.com/bcampelo/sgbapi-estudos)** | API REST de um sistema de gerenciamento de biblioteca. Arquitetura em camadas com DTO, mapper e relacionamento entre entidades. | Java 21 · Spring Boot · JPA · MySQL |
 | **[Calculadora CI](https://github.com/bcampelo/webacademy-calculadora-breno_campelo)** | Serviço Spring Boot com testes unitários rodando em integração contínua a cada push. | Java · Spring Boot · JUnit 5 · GitHub Actions |
