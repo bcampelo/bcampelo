@@ -37,9 +37,9 @@
 
 ### O que estou estudando agora
 
-- Spring Boot a fundo: validação, tratamento de exceção e testes de integração
-- Estrutura de dados e algoritmos, a matéria que separa quem continua de quem tranca
-- Deploy e CI/CD sem depender de tutorial
+- Spring Boot a fundo: validação e testes de integração.
+- Estrutura de dados e algoritmos.
+- Deploy e CI/CD
 
 ---
 
