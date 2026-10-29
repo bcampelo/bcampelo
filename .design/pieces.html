@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Anton;src:url(assets/anton-latin-400-normal.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Oswald;src:url(assets/oswald-latin-400-normal.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Oswald;src:url(assets/oswald-latin-500-normal.woff2) format('woff2');font-weight:500}
+@font-face{font-family:Oswald;src:url(assets/oswald-latin-600-normal.woff2) format('woff2');font-weight:600}
+@font-face{font-family:Oswald;src:url(assets/oswald-latin-700-normal.woff2) format('woff2');font-weight:700}
+:root{
+  --bg:#080F0C; --bg2:#0A1410; --bg3:#060B09;
+  --green:#05DF48; --white:#FFFFFF; --sub:#9FB3A8; --sub2:#CFE0D6;
+  --line:rgba(255,255,255,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:transparent;padding:20px;display:flex;flex-direction:column;gap:30px;align-items:flex-start;-webkit-font-smoothing:antialiased}
+
+.piece{position:relative;overflow:hidden;border-radius:22px;background:linear-gradient(180deg,var(--bg2),var(--bg) 55%,var(--bg3));border:1px solid var(--line);color:var(--white);font-family:Oswald,sans-serif}
+.piece::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(120% 70% at 22% 0%,rgba(5,223,72,.13),transparent 55%)}
+.piece::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:5;background:url(assets/grain.png);background-size:640px;opacity:.125;mix-blend-mode:overlay;box-shadow:inset 0 0 220px 30px rgba(0,0,0,.55)}
+.piece > *{position:relative;z-index:2}
+
+.kicker{display:flex;align-items:center;gap:14px;font-weight:700;font-size:13px;letter-spacing:4px;text-transform:uppercase;color:var(--sub2)}
+.kicker.g{color:var(--green)}
+.kicker .ln{height:2px;width:90px;background:linear-gradient(90deg,var(--green),transparent)}
+.title{font-family:Anton,sans-serif;text-transform:uppercase;line-height:.9;letter-spacing:.5px}
+.sub{font-weight:600;text-transform:uppercase;letter-spacing:.6px;line-height:1.22;color:var(--white)}
+.meta{font-weight:500;text-transform:uppercase;letter-spacing:2.4px;font-size:12.5px;color:var(--sub)}
+.body{font-weight:400;font-size:15.5px;line-height:1.45;color:var(--sub2)}
+.num{position:absolute;font-family:Anton,sans-serif;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.09);line-height:.8;z-index:1}
+
+.foot{display:flex;align-items:center;justify-content:space-between}
+.seal{display:flex;align-items:center;gap:11px;font-weight:600;letter-spacing:1.5px;font-size:14px}
+.seal i{display:grid;place-items:center;width:28px;height:28px;border-radius:7px;background:var(--green);color:#06120B;font-style:normal;font-family:Anton,sans-serif;font-size:17px}
+.idx{font-weight:600;letter-spacing:2.5px;font-size:13px;color:var(--sub)}
+
+/* HERO */
+#hero{width:880px;height:400px;padding:44px 48px 34px;display:flex;flex-direction:column}
+#hero .title{font-size:104px;margin-top:20px}
+#hero .title span{color:var(--green)}
+#hero .sub{font-size:20px;margin-top:18px;color:var(--sub2)}
+#hero .foot{margin-top:auto}
+#hero .side{position:absolute;right:48px;top:44px;text-align:right;display:flex;flex-direction:column;gap:9px}
+#hero .side .meta{font-size:12px}
+#hero .num{right:-14px;bottom:-30px;font-size:300px}
+
+/* FEATURED */
+#notchestra{width:880px;height:640px;padding:40px 44px 0}
+#notchestra .row{display:flex;justify-content:space-between;align-items:flex-start;gap:30px}
+#notchestra .title{font-size:84px;margin-top:16px}
+#notchestra .sub{font-size:19px;margin-top:14px;max-width:470px}
+#notchestra .right{width:290px;padding-top:44px;display:flex;flex-direction:column;gap:14px}
+#notchestra .right .body{font-size:14.5px}
+#notchestra .shot{position:absolute;left:44px;right:44px;top:288px;bottom:-40px;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.12);box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 6px rgba(255,255,255,.02)}
+#notchestra .shot img{width:100%;display:block}
+#notchestra .shot::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(8,15,12,.85))}
+#notchestra .num{right:-8px;top:-20px;font-size:230px}
+
+/* HALF CARDS */
+.half{width:430px;height:330px;padding:34px 34px 28px;display:flex;flex-direction:column}
+.half .title{font-size:52px;margin-top:18px}
+.half .sub{font-size:16px;margin-top:12px}
+.half .meta{margin-top:auto}
+.half .num{right:-6px;bottom:-22px;font-size:190px}
+
+/* SLIM */
+.slim{width:880px;height:210px;padding:34px 44px;display:flex;align-items:center;gap:40px}
+.slim .l{flex:1}
+.slim .title{font-size:50px;margin-top:16px;white-space:nowrap}
+.slim .r{width:310px;display:flex;flex-direction:column;gap:14px}
+.slim .r .body{font-size:14.5px}
+.slim .num{right:330px;bottom:-26px;font-size:170px}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="piece" id="hero">
+  <div class="kicker">Rio Branco · Acre <span class="ln"></span></div>
+  <div class="title">Breno<br><span>Campelo</span></div>
+  <div class="sub">Full stack em formação · Java e Spring · IA no fluxo de trabalho</div>
+  <div class="side">
+    <div class="meta">Sistemas de Informação · UFAC</div>
+    <div class="meta">Web Academy</div>
+    <div class="meta">Versa · agência própria</div>
+  </div>
+  <div class="foot">
+    <div class="seal"><i>C</i>@campelodev</div>
+    <div class="idx">GITHUB · 2026</div>
+  </div>
+  <div class="num">DEV</div>
+</section>
+
+<!-- NOTCHESTRA -->
+<section class="piece" id="notchestra">
+  <div class="row">
+    <div>
+      <div class="kicker g">01 · Em destaque <span class="ln"></span></div>
+      <div class="title">Notchestra</div>
+      <div class="sub">App nativo de Mac que faz agentes de IA trabalharem juntos</div>
+    </div>
+    <div class="right">
+      <div class="body">Você dá um pedido grande. O maestro divide em tarefas, escolhe agente e modelo pra cada uma, um executa e outro revisa até aprovar. Tudo acompanhado numa ilha no notch.</div>
+      <div class="meta">Swift · SwiftUI · Git worktrees</div>
+      <div class="meta">Claude Code · Kiro · Codex · Gemini</div>
+    </div>
+  </div>
+  <div class="shot"><img src="assets/notch-stage.jpg"></div>
+</section>
+
+<!-- BIOAMAZON -->
+<section class="piece half" id="bioamazon">
+  <div class="kicker g">02 · Vencedor de hackathon <span class="ln" style="width:40px"></span></div>
+  <div class="title">BioAmazon IA</div>
+  <div class="sub">Rastreabilidade do açaí com IA rodando no próprio aparelho</div>
+  <div class="meta">Python · Flask · Gemma · PWA offline</div>
+  <div class="num">02</div>
+</section>
+
+<!-- SAMPAIO -->
+<section class="piece half" id="sampaio">
+  <div class="kicker">03 · Projeto de cliente <span class="ln" style="width:56px"></span></div>
+  <div class="title">Sampaio &amp; Gonçalves</div>
+  <div class="sub">Site de escritório de advocacia com hero 3D e motion no scroll</div>
+  <div class="meta">React · TypeScript · GSAP · Three.js</div>
+  <div class="num">03</div>
+</section>
+
+<!-- VAGAS -->
+<section class="piece slim" id="vagas">
+  <div class="l">
+    <div class="kicker">04 · Automação <span class="ln"></span></div>
+    <div class="title">campelodev vagas</div>
+  </div>
+  <div class="r">
+    <div class="body">Bot que garimpa vagas de júnior e estágio nos repositórios da comunidade e posta no Discord. Roda a cada 15 minutos, sem servidor.</div>
+    <div class="meta">Node.js · GitHub Actions · Discord</div>
+  </div>
+  <div class="num">04</div>
+</section>
+
+</body>
+</html>

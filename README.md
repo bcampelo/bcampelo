@@ -1,58 +1,31 @@
-# Notchestra
+<a href="https://instagram.com/campelodev"><img src="assets/hero.webp" alt="Breno Campelo. Rio Branco, Acre. Full stack em formação, Java e Spring, IA no fluxo de trabalho." width="100%"></a>
 
-App nativo de Mac que faz seus agentes de IA trabalharem juntos.
+Estudo Sistemas de Informação na UFAC e faço a Web Academy. Programo com IA o dia inteiro, e o projeto que mais me ensinou foi justamente um app pra coordenar agentes de código. Fora isso, API em Java com Spring, front em React e site entregue pra cliente de verdade.
 
-Você dá um pedido grande. O maestro divide em tarefas, escolhe o agente e o modelo de cada uma e mostra o plano pra você aprovar. As tarefas rodam em paralelo, cada uma no seu git worktree. Um agente executa, outro de outra família revisa, e se a revisão reprovar o feedback volta pra quem executou. No fim o maestro confere o diff inteiro contra o pedido e abre o pull request.
+<p>
+<a href="https://instagram.com/campelodev"><b>Instagram</b></a> &nbsp;·&nbsp;
+<a href="https://www.tiktok.com/@campelodev_"><b>TikTok</b></a> &nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/brenocampelo"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+<a href="mailto:brenoccfilho@gmail.com"><b>E-mail</b></a>
+</p>
 
-Tudo acompanhado numa ilha no notch do Mac.
+<br>
 
-![Palco da orquestra](docs/screens/fase-4-2/01-palco-orquestra-escuro.png)
+<a href="https://github.com/bcampelo/notchestra"><img src="assets/notchestra.webp" alt="Notchestra. App nativo de Mac que faz agentes de IA trabalharem juntos. Swift e SwiftUI." width="100%"></a>
 
-## O que tem
+<p>
+<a href="https://github.com/bcampelo/amazonia-bio"><img src="assets/bioamazon.webp" alt="BioAmazon IA. Rastreabilidade do açaí com IA rodando no aparelho. Vencedor de hackathon." width="49%"></a>
+<a href="https://github.com/bcampelo/sampaioegoncalves-adv-26"><img src="assets/sampaio.webp" alt="Sampaio e Gonçalves. Site de escritório de advocacia com hero 3D. React, TypeScript, GSAP e Three.js." width="49%"></a>
+</p>
 
-- **Palco da orquestra.** Cada agente é um músico no seu lugar, com a tarefa que está tocando, o terminal ao vivo e o estado da revisão.
-- **Ilha no notch.** Status da execução sem abrir janela. Em Mac sem notch ela vira um painel flutuante.
-- **Maestro e roteador.** O maestro planeja a partitura. O roteador decide executor e revisor por tipo e complexidade da tarefa, pula agente sem cota e explica cada escolha.
-- **Custo.** Estimativa antes de aprovar e custo real no fim de cada execução.
-- **Limites.** Uso de Claude Code, Kiro, Codex e Gemini na barra lateral, com aviso antes de começar.
-- **Portão de testes e PR.** Roda os testes do projeto antes da revisão final e abre o pull request com `gh`.
-- **Sessões interativas.** Dá pra assumir uma tarefa num terminal e conversar com o agente direto.
+<a href="https://github.com/bcampelo/campelodev-vagas"><img src="assets/vagas.webp" alt="campelodev vagas. Bot que garimpa vagas de júnior e estágio e posta no Discord. Node.js e GitHub Actions." width="100%"></a>
 
-![Ilha no notch](docs/screens/fase-4-2/02-palco-orquestra-recolhido-escuro.png)
+<br>
 
-## Agentes
+**Stack** &nbsp; Java · Spring Boot · TypeScript · React · Swift · SwiftUI · Python · Node.js · MySQL · Git
 
-Qualquer CLI que aceite prompt em modo não interativo. O primeiro uso detecta as CLIs instaladas e monta a configuração sozinho. Exemplos para Claude Code, Kiro, Codex e Gemini em `examples/`.
+**Com IA** &nbsp; Claude Code · Kiro · Codex · Gemini CLI, orquestrados pelo Notchestra
 
-## Requisitos
+**Agora** &nbsp; Spring Boot a fundo, testes de integração e estrutura de dados
 
-- macOS 14 ou superior
-- Xcode 16 ou superior, com o Metal Toolchain (`xcodebuild -downloadComponent MetalToolchain`)
-- As CLIs dos agentes instaladas e logadas
-
-## Rodando
-
-```bash
-brew install xcodegen
-scripts/build-app.sh
-open App/build/Build/Products/Debug/Notchestra.app
-```
-
-O núcleo também roda pelo terminal.
-
-```bash
-swift build
-swift run notchestra --help
-```
-
-## Como foi feito
-
-O app foi construído com os próprios agentes que ele orquestra. Kiro executando, Claude Code revisando, em fases curtas. As decisões de arquitetura estão em `docs/decisoes/`, o diário de cada sessão em `docs/PROGRESSO.md` e os prompts de cada fase em `docs/prompts/`.
-
-## Stack
-
-Swift · SwiftUI · AppKit · Swift Package Manager · XcodeGen · git worktrees
-
-## Licença
-
-MIT
+<sub>Se você também está aprendendo a programar longe do eixo Rio–São Paulo, o resto está no <a href="https://instagram.com/campelodev"><b>@campelodev</b></a>.</sub>
