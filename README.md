@@ -1,31 +1,31 @@
-<a href="https://instagram.com/campelodev"><img src="assets/hero.webp" alt="Breno Campelo. Rio Branco, Acre. Full stack em formação, Java e Spring, IA no fluxo de trabalho." width="100%"></a>
+# Hi, I'm Breno Campelo
 
-Estudo Sistemas de Informação na UFAC e faço a Web Academy. Programo com IA o dia inteiro, e o projeto que mais me ensinou foi justamente um app pra coordenar agentes de código. Fora isso, API em Java com Spring, front em React e site entregue pra cliente de verdade.
+Software engineer in training from Rio Branco, Acre, Brazil. I study Information Systems at UFAC and I'm part of Web Academy, an advanced web development program. I mostly work on the back end with Java and Spring Boot, and I use AI coding agents every day as part of how I build software.
 
-<p>
-<a href="https://instagram.com/campelodev"><b>Instagram</b></a> &nbsp;·&nbsp;
-<a href="https://www.tiktok.com/@campelodev_"><b>TikTok</b></a> &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/brenocampelo"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-<a href="mailto:brenoccfilho@gmail.com"><b>E-mail</b></a>
-</p>
+## Experience
 
-<br>
+- **Versa** · Founder (2026 – present). Digital agency. Websites, automations and marketing for local businesses.
+- **Sabor Acreano** · Social media (Feb – Dec 2025).
 
-<a href="https://github.com/bcampelo/notchestra"><img src="assets/notchestra.webp" alt="Notchestra. App nativo de Mac que faz agentes de IA trabalharem juntos. Swift e SwiftUI." width="100%"></a>
+## Languages and Tools
 
-<p>
-<a href="https://github.com/bcampelo/amazonia-bio"><img src="assets/bioamazon.webp" alt="BioAmazon IA. Rastreabilidade do açaí com IA rodando no aparelho. Vencedor de hackathon." width="49%"></a>
-<a href="https://github.com/bcampelo/sampaioegoncalves-adv-26"><img src="assets/sampaio.webp" alt="Sampaio e Gonçalves. Site de escritório de advocacia com hero 3D. React, TypeScript, GSAP e Three.js." width="49%"></a>
-</p>
+**Daily**
 
-<a href="https://github.com/bcampelo/campelodev-vagas"><img src="assets/vagas.webp" alt="campelodev vagas. Bot que garimpa vagas de júnior e estágio e posta no Discord. Node.js e GitHub Actions." width="100%"></a>
+<img src="https://skillicons.dev/icons?i=java,spring,git,github,mysql,idea,postman" alt="Java, Spring, Git, GitHub, MySQL, IntelliJ IDEA, Postman">
 
-<br>
+**Have worked with**
 
-**Stack** &nbsp; Java · Spring Boot · TypeScript · React · Swift · SwiftUI · Python · Node.js · MySQL · Git
+<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,nodejs,vite,threejs,python,flask,swift,vscode,figma" alt="JavaScript, TypeScript, React, HTML, CSS, Tailwind, Node.js, Vite, Three.js, Python, Flask, Swift, VS Code, Figma">
 
-**Com IA** &nbsp; Claude Code · Kiro · Codex · Gemini CLI, orquestrados pelo Notchestra
+**AI tools:** Claude Code, Kiro, Codex, Gemini CLI
 
-**Agora** &nbsp; Spring Boot a fundo, testes de integração e estrutura de dados
+## Projects
 
-<sub>Se você também está aprendendo a programar longe do eixo Rio–São Paulo, o resto está no <a href="https://instagram.com/campelodev"><b>@campelodev</b></a>.</sub>
+- **[Notchestra](https://github.com/bcampelo/notchestra)** · Native macOS app that coordinates AI coding agents. One agent writes the code, another reviews it, and you follow everything from the notch. Swift, SwiftUI.
+- **[BioAmazon IA](https://github.com/bcampelo/amazonia-bio)** · Açaí traceability with on-device AI (Gemma). Offline-first PWA with a Flask backend. Hackathon winner.
+- **[Sampaio & Gonçalves](https://github.com/bcampelo/sampaioegoncalves-adv-26)** · Website for a law firm, built for a real client. React, TypeScript, GSAP, Three.js.
+- **[campelodev-vagas](https://github.com/bcampelo/campelodev-vagas)** · Bot that finds junior and internship job posts and sends them to a Discord server. Node.js, GitHub Actions.
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/brenocampelo) · [Instagram](https://instagram.com/campelodev) · [brenoccfilho@gmail.com](mailto:brenoccfilho@gmail.com)
