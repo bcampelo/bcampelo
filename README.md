@@ -4,6 +4,7 @@ Software engineer in training from Rio Branco, Acre, Brazil. I study Information
 
 ## Experience
 
+- **Web Academy** · Full stack developer (present). Building a full stack system for a startup, mainly with Java and Apache POI.
 - **Versa** · Founder (2026 – present). Digital agency. Websites, automations and marketing for local businesses.
 - **Sabor Acreano** · Social media (Feb – Dec 2025).
 
