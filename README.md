@@ -1,10 +1,10 @@
 # Hi, I'm Breno Campelo
 
-Software engineer in training from Rio Branco, Acre, Brazil. I study Information Systems at UFAC and I'm part of Web Academy, an advanced web development program. I mostly work on the back end with Java and Spring Boot, and I use AI coding agents every day as part of how I build software.
+Software engineer in training from Rio Branco, Acre, Brazil. I study Information Systems at UFAC and I'm part of Web Academy, an advanced web development program by Motorola. I mostly work on the back end with Java and Spring Boot, and I use AI coding agents every day as part of how I build software.
 
 ## Experience
 
-- **Web Academy** · Full stack developer (present). Building a full stack system for a startup, mainly with Java and Apache POI.
+- **Web Academy (Motorola)** · Full stack developer (present). Building a full stack system for a startup, mainly with Java and Apache POI.
 - **Versa** · Founder (2026 – present). Digital agency. Websites, automations and marketing for local businesses.
 - **Sabor Acreano** · Social media (Feb – Dec 2025).
 
