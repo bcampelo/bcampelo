@@ -1,48 +1,58 @@
-<h1 align="left">Breno Campelo</h1>
+# Notchestra
 
-<p align="left">
-<strong>Estudante de Sistemas de Informação na UFAC.</strong> Aprendo backend construindo coisa que funciona de verdade: API REST em Java com Spring Boot, front-end em React e TypeScript, e site que foi pro ar para cliente real.
-</p>
+App nativo de Mac que faz seus agentes de IA trabalharem juntos.
 
-<p align="left">
-  <a href="https://instagram.com/campelodev"><img src="https://img.shields.io/badge/Instagram-campelodev-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=instagram" alt="Instagram"></a>
-  <a href="https://www.tiktok.com/@campelodev_"><img src="https://img.shields.io/badge/TikTok-campelodev__-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=tiktok" alt="TikTok"></a>
-  <a href="https://www.linkedin.com/in/brenocampelo"><img src="https://img.shields.io/badge/LinkedIn-brenocampelo-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=linkedin" alt="LinkedIn"></a>
-  <a href="mailto:brenoccfilho@gmail.com"><img src="https://img.shields.io/badge/E--mail-contato-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=gmail" alt="E-mail"></a>
-</p>
+Você dá um pedido grande. O maestro divide em tarefas, escolhe o agente e o modelo de cada uma e mostra o plano pra você aprovar. As tarefas rodam em paralelo, cada uma no seu git worktree. Um agente executa, outro de outra família revisa, e se a revisão reprovar o feedback volta pra quem executou. No fim o maestro confere o diff inteiro contra o pedido e abre o pull request.
 
----
+Tudo acompanhado numa ilha no notch do Mac.
 
-### O que estou construindo
+![Palco da orquestra](docs/screens/fase-4-2/01-palco-orquestra-escuro.png)
 
-| Projeto | O que é | Stack |
-| :--- | :--- | :--- |
-| **[BioAmazon IA](https://github.com/bcampelo/amazonia-bio)** | Rastreabilidade do açaí com IA na ponta: o produtor fala, o Gemma gera a ficha técnica e a narrativa, e nasce uma página pública com QR. Offline-first, rodando no próprio aparelho. Projeto vencedor de hackathon. | Python · Flask · Gemma · PWA · Edge AI |
-| **[Sampaio & Gonçalves](https://github.com/bcampelo/sampaioegoncalves-adv-26)** | Site institucional de um escritório de advocacia. Hero 3D em WebGL, motion cinematográfico guiado por scroll e acessibilidade respeitando `prefers-reduced-motion`. Projeto de cliente. | React 18 · TypeScript · Vite · GSAP · Three.js |
-| **[SGB API](https://github.com/bcampelo/sgbapi-estudos)** | API REST de um sistema de gerenciamento de biblioteca. Arquitetura em camadas com DTO, mapper e relacionamento entre entidades. | Java 21 · Spring Boot · JPA · MySQL |
-| **[Calculadora CI](https://github.com/bcampelo/webacademy-calculadora-breno_campelo)** | Serviço Spring Boot com testes unitários rodando em integração contínua a cada push. | Java · Spring Boot · JUnit 5 · GitHub Actions |
+## O que tem
 
-### Stack do dia a dia
+- **Palco da orquestra.** Cada agente é um músico no seu lugar, com a tarefa que está tocando, o terminal ao vivo e o estado da revisão.
+- **Ilha no notch.** Status da execução sem abrir janela. Em Mac sem notch ela vira um painel flutuante.
+- **Maestro e roteador.** O maestro planeja a partitura. O roteador decide executor e revisor por tipo e complexidade da tarefa, pula agente sem cota e explica cada escolha.
+- **Custo.** Estimativa antes de aprovar e custo real no fim de cada execução.
+- **Limites.** Uso de Claude Code, Kiro, Codex e Gemini na barra lateral, com aviso antes de começar.
+- **Portão de testes e PR.** Roda os testes do projeto antes da revisão final e abre o pull request com `gh`.
+- **Sessões interativas.** Dá pra assumir uma tarefa num terminal e conversar com o agente direto.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=openjdk" alt="Java">
-  <img src="https://img.shields.io/badge/Spring_Boot-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=springboot" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/TypeScript-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=react" alt="React">
-  <img src="https://img.shields.io/badge/JavaScript-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=javascript" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Tailwind-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=tailwindcss" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/MySQL-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=mysql" alt="MySQL">
-  <img src="https://img.shields.io/badge/Git-05DF48?style=for-the-badge&logoColor=white&labelColor=080F0C&logo=git" alt="Git">
-</p>
+![Ilha no notch](docs/screens/fase-4-2/02-palco-orquestra-recolhido-escuro.png)
 
-### O que estou estudando agora
+## Agentes
 
-- Spring Boot a fundo: validação e testes de integração.
-- Estrutura de dados e algoritmos.
-- Deploy e CI/CD
+Qualquer CLI que aceite prompt em modo não interativo. O primeiro uso detecta as CLIs instaladas e monta a configuração sozinho. Exemplos para Claude Code, Kiro, Codex e Gemini em `examples/`.
 
----
+## Requisitos
 
-<p align="left">
-  <sub>Se você também está aprendendo a programar longe do eixo Rio&ndash;São Paulo, a jornada inteira está no <a href="https://instagram.com/campelodev"><strong>campelodev</strong></a>.</sub>
-</p>
+- macOS 14 ou superior
+- Xcode 16 ou superior, com o Metal Toolchain (`xcodebuild -downloadComponent MetalToolchain`)
+- As CLIs dos agentes instaladas e logadas
+
+## Rodando
+
+```bash
+brew install xcodegen
+scripts/build-app.sh
+open App/build/Build/Products/Debug/Notchestra.app
+```
+
+O núcleo também roda pelo terminal.
+
+```bash
+swift build
+swift run notchestra --help
+```
+
+## Como foi feito
+
+O app foi construído com os próprios agentes que ele orquestra. Kiro executando, Claude Code revisando, em fases curtas. As decisões de arquitetura estão em `docs/decisoes/`, o diário de cada sessão em `docs/PROGRESSO.md` e os prompts de cada fase em `docs/prompts/`.
+
+## Stack
+
+Swift · SwiftUI · AppKit · Swift Package Manager · XcodeGen · git worktrees
+
+## Licença
+
+MIT
